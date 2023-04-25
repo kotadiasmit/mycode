@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  width: fit-content;
+  margin: auto;
+}
+.table-container {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.table-row-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
