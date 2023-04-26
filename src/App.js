@@ -67,9 +67,7 @@ class App extends Component {
                   <RowPara>AGE</RowPara>
                 </div>
                 <ul className="table-container" style={{paddingLeft: '0px'}}>
-                  {tableArray.map(each => (
-                    <div key={each.id}>{this.table(each)}</div>
-                  ))}
+                  {tableArray.map(each => this.table(each))}
                 </ul>
               </>
             )}
